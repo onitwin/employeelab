@@ -35,4 +35,13 @@ public abstract class Employee {
     public void setSalary(double salary) {
         this.salary = salary;
     }
+
+
+    public void raiseSalary(double inc){
+        this.salary +=  this.salary * inc;
+    }
+
+    public double payBonus(){
+        return salary * 0.1;
+    }
 }
