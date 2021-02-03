@@ -1,4 +1,6 @@
 package management;
 
-public class Manager {
+import staff.Employee;
+
+public class Manager extends Employee {
 }
